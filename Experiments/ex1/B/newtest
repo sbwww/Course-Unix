@@ -1,0 +1,6 @@
+import os
+import re
+EOF
+#include <bits/stdc++.h>
+using namespace std;
+EOF
