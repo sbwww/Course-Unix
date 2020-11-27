@@ -1,0 +1,4 @@
+num1=1
+num2=2
+num3=`expr $num1+$num2`
+echo num3=$num3
