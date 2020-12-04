@@ -18,8 +18,8 @@ int main() {
   int fd2 = open("file2", O_RDONLY);
   int fd3 = open("file3", O_RDWR);
 
-  // int disp = 30 * _1B;
-  int disp = 4 * _1MB;
+  int disp = 30 * _1B;
+  // int disp = 4 * _1MB;
 
   printf("disp = %d\n", disp);
 
@@ -29,5 +29,6 @@ int main() {
 
   close(fd1);
   close(fd2);
+  close(fd3);
   return 0;
 }
